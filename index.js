@@ -39,7 +39,7 @@ function reduceToTotal(sourceArray, startingPoint = 100){
   for (let i = 0; i < sourceArray.length ; i ++){
     let startingPoint = startingPoint + sourceArray[0]
   }
-  return sum
+  return startingPoint
 }
 
 function reduceToAllTrue(sourceArray){
