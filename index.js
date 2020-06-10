@@ -32,7 +32,7 @@ function mapToSquare(array){
 function reduceToTotal(sourceArray, startingPoint = 0){
   let sum = startingPoint
   for (let i = 0; i < sourceArray.length ; i ++){
-    let sum = startingPoint + sourceArray[i]
+    let sum = sum + sourceArray[i]
   }
   return sum
 }
