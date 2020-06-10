@@ -9,5 +9,14 @@ function mapToNegativize(array){
   return arr ;
 }
  
+dune = ["paul", "gurney", "vladimir", "jessica", "chani"]
+function mapToNoChange(dune){
+  let dune1 = []
+  for (let i = 0 ;i<dune.length ; i++){
+    dune.push(dune[i])
+  }
+  return dune1 ;
+}
+
 
 
