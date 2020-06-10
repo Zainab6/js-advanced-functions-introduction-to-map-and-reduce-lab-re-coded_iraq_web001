@@ -43,7 +43,7 @@ function reduceToAnyTrue(sourceArray){
       return true
     }
     else {
-      return true
+      return false
       
     }
   }
