@@ -29,7 +29,7 @@ function mapToSquare(array){
 
 
 
-function reduceToTotal(sourceArray, startingPoint = 0){
+function reduceToTotal(sourceArray, startingPoint = 100){
   let sum = startingPoint
   for (let i = 0; i < sourceArray.length ; i++){
     let sum = sum + sourceArray[i]
@@ -50,7 +50,7 @@ function reduceToAllTrue(sourceArray){
 }
     
 function reduceToAnyTrue(sourceArray){
-  for (let i = 0; i < sourceArray.length ; i ++){
+  for (let i = 0; i < sourceArray.length ; i++){
     if (sourceArray[i]){
       return true
     }
