@@ -37,22 +37,22 @@ function reduceToTotal(sourceArray, startingPoint = 0){
   return sum
 }
 
-function reduceToAllTrue(sourceArray){
+function reduceToAnyTrue(sourceArray){
   for (let i = 0; i < sourceArray.length ; i++){
     if (!sourceArray[i]){
-      return true
+      return false
     }
     else {
-      return false
+      return true
       
     }
   }
 }
     
-function reduceToAnyTrue(sourceArray){
+function reduceToAllTrue(sourceArray){
   for (let i = 0; i < sourceArray.length ; i++){
     if (sourceArray[i]){
-      return tr
+      return true
     }
     else {
       return false
