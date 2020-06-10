@@ -32,7 +32,7 @@ function reduceToTotal(sourceArray,total){
   for (let i = 0; i<sourceArray.length;i++){
     total = total + sourceArray[i]
   }
-  return sum;
+  return total;
 }
 
 function reduceToTotal(sourceArray, startingPoint = 100){
