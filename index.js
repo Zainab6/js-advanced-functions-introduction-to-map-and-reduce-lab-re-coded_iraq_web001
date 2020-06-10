@@ -53,10 +53,7 @@ function reduceToAllTrue(sourceArray){
     if (!sourceArray[i]){
       return false
     }
-    else {
       return true
-      
-    }
   }
 }
 
