@@ -11,9 +11,11 @@ function mapToNegativize(array){
  
  dune = ["paul", "gurney", "vladimir", "jessica", "chani"]
   function mapToNoChange(dune){
+    let dune1 = []
     for (let i = 0 ; i < dune.length ; i++ ){
-      return dune[i]
+      dune1.push(dune[i])
     }
+    return dune1
   }
       
 function mapToDouble(array){
