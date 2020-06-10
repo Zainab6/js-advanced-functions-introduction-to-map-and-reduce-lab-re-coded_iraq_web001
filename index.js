@@ -44,7 +44,7 @@ function reduceToTotal(sourceArray, startingPoint = 100){
 
 function reduceToAllTrue(sourceArray){
   for (let i = 0; i < sourceArray.length ; i ++){
-    if (sourceArray[i]){
+    if (!sourceArray[i]){
       return false
     }
     else {
