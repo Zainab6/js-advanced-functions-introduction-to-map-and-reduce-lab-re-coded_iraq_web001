@@ -9,7 +9,13 @@ function mapToNegativize(array){
   return arr ;
 }
  
-
+ dune = ["paul", "gurney", "vladimir", "jessica", "chani"]
+  function mapToNoChange(dune){
+    for (let i = 0 ; i < dune.length ; i++ ){
+      return dune[i]
+    }
+  }
+      
 function mapToDouble(array){
   let array1 = []
   for (let i = 0 ;i<array.length ; i++){
