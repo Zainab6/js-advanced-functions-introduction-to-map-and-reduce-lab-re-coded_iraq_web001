@@ -42,20 +42,19 @@ function reduceToAnyTrue(sourceArray){
     if (sourceArray[i]){
       return true
     }
-    else {
-      return false
+    
+  return false
       
-    }
   }
 }
     
 function reduceToAllTrue(sourceArray){
   for (let i = 0; i < sourceArray.length ; i++){
-    if (sourceArray[i]){
-      return true
+    if (!sourceArray[i]){
+      return false
     }
     else {
-      return false
+      return true
       
     }
   }
