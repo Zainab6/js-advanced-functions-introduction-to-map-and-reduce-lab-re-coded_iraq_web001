@@ -50,27 +50,5 @@ function reduceToTotal(sourceArray, startingPoint = 100){
   return sum
 }
 
-function reduceToAllTrue(sourceArray){
-  for (let i = 0; i < sourceArray.length ; i ++){
-    if (!sourceArray[i]){
-      return false
-    }
-    else {
-      return true
-      
-    }
-  }
-}
-    
-function reduceToAnyTrue(sourceArray){
-  for (let i = 0; i < sourceArray.length ; i ++){
-    if (sourceArray[i]){
-      return true
-    }
-    else {
-      return false
-      
-    }
-  }
-}
+
 
